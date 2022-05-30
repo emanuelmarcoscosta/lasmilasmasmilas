@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfc779f6;
+}
+
+.tituloFondo{
+    background-color: #f0e68c;
+    height: 5em;
+}
+
+.tituloLetras{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+    font-size: xx-large;
+}
+
+.textoIntroductorio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 30%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.menuImagen{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.sucursales{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.cajaC{
+    width: 800px;
+    height: 420px;
+}
+
+form{
+    padding-bottom: 150px;
+}
